@@ -1,0 +1,158 @@
+ .container {
+    width: 300px;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:whitesmoke;
+    text-align: center;
+   
+  }
+  label
+  {
+      width: 100px;
+      display: inline-block;
+  }
+  
+  .cl
+  {
+      margin-left: 85px;
+  }
+  .b {
+    background-color:rgb(71, 71, 236);
+   
+    color: white;
+    color: white;
+  padding: 8px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    text-align: center;
+    
+    
+  } 
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+  
+  td, th {
+    border: 1px solid #5e5a5a;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+
+  .btn-color{
+    background-color: #0e1c36;
+    color: #fff;
+    
+  }
+  
+  .profile-image-pic{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+  
+  
+  
+  .cardbody-color{
+    background-color: #ebf2fa;
+  }
+  
+ 
+
+  .pagination {
+    display: inline;
+    
+
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+   margin-top: 50%;
+  }
+  a:hover {
+    background-color: rgb(69, 69, 221);
+  }
+
+
+
+
+
+
+
+/* <div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h3>Calculation</h3>
+        <form
+          name="form"
+          (ngSubmit)="f.form.valid && onSubmit()"
+          #f="ngForm"
+          novalidate
+        >
+          <div class="form-group">
+            <label >Num1</label>
+            <input
+              type="number"
+              class="form-control"
+              name="num1"
+              [(ngModel)]="model.num1"
+              #num1="ngModel"
+              [ngClass]="{ 'is-invalid': f.submitted && num1.invalid }"
+              required
+            />
+            <div
+              *ngIf="f.submitted && num1.invalid"
+              class="invalid-feedback"
+            >
+              <div *ngIf="num1.errors.required">
+                 Number is required
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label >Num2</label>
+            <input
+              type="text"
+              class="form-control"
+              name="num2"
+              [(ngModel)]="model.num2"
+              #num2="ngModel"
+              [ngClass]="{ 'is-invalid': f.submitted && num2.invalid }"
+              required
+            />
+            <div
+              *ngIf="f.submitted && num2.invalid"
+              class="invalid-feedback"
+            >
+              <div *ngIf="num2.errors.required">Number is required</div>
+            </div>
+          </div>
+          
+           
+          <div class="form-group">
+            <button class="btn btn-primary">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div> */
